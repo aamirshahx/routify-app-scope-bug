@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+	<title>Svelte app</title>
+
+	<meta name="theme-color" content="#E938C2">
+	<link rel="apple-touch-icon" href="images/touch-icons/logo-192.png">
+
+	<link rel="manifest" href="/manifest.json">
+	<link rel='icon' type='image/png' href='/favicon.png'>
+	<link rel='stylesheet' href='/build/bundle.css'>
+
+	__SCRIPT__
+</head>
+
+<body>
+	<div id="routify"></div>
+
+	<hr />
+	<div style="padding: 10px; text-align: center">
+		<p>Routify should not handle below anchors as they are outside of routify app</p>
+		<a href="/non-routify-page.html">Non Routify Page - without target attribute</a><br/>
+		<a href="/non-routify-page.html" target="_self">Non Routify Page - with target attribute</a><br/>
+	</div>
+	<noscript>Please enable Javascript for best experience.</noscript>
+</body>
+</html>
